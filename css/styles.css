@@ -7,7 +7,7 @@ body {
 
 h1 {
   margin:50px auto 0 auto;
-  font-size: 4.5rem;
+  font-size: 4.25rem;
   font-family: 'Sacramento', cursive;
   color:#66BFBF;
   font-weight: normal;
@@ -15,9 +15,9 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size:3.75rem;
   color: #66BFBF;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h3 {
@@ -28,6 +28,7 @@ h3 {
 
 p{
   font-weight: normal;
+  font-size: 1.5rem;
 }
 .top-container {
   background-color: #E4F9F5;
@@ -35,12 +36,20 @@ p{
   padding-top: 200px;
 }
 
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  padding-top: 50px;
+
+}
 .middle-container {
   padding-top: 70px;
 }
 
 .bottom-container {
-
+  padding-top: 70px;
 }
 
 .pro {
@@ -57,4 +66,23 @@ p{
   position: absolute;
   right: 250px;
   top: 75px;
+}
+
+.intro{
+  margin:auto;
+}
+
+.computer{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+.food{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+
+.profile-pic{
+  width:20%;
 }
